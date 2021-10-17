@@ -7,4 +7,14 @@ fun main(){
     } else {
         println("No")
     }
+
+    var mark: String = "A"
+
+    when (mark){
+        "A" -> println("Cumlaude")
+        "B" -> println("Great")
+        "C" -> println("Average")
+        "D" -> println("Poor")
+        "E" -> println("Bad")
+    }
 }

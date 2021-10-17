@@ -17,4 +17,13 @@ fun main(){
         "D" -> println("Poor")
         "E" -> println("Bad")
     }
+
+    var mark2: String = "A"
+
+    when (mark2){
+        // Multiple mark
+        "A,B,C" -> println("Good")
+        "D" -> println("Poor")
+        "E" -> println("Bad")
+    }
 }

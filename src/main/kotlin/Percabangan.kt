@@ -26,4 +26,18 @@ fun main(){
         "D" -> println("Poor")
         "E" -> println("Bad")
     }
+
+    var markNilai: String = "E"
+    val passingGrade: Array<String> = arrayOf("A","B","C")
+    when(markNilai){
+        in passingGrade -> println("Anda Lulus")
+        !in passingGrade -> println("Anda tidak lulus")
+    }
+
+
+    var name: String = "Angga"
+    when(name){
+        is String -> println("Nama string")
+        !is String -> println("Nama bukan string")
+    }
 }
